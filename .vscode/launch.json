@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<spring_boot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.mainapplication.spring_boot.Application",
+            "projectName": "spring_boot",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication<eureka_service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "zeebe.eureka.service.eureka_service.EurekaApplication",
+            "projectName": "eureka_service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config_service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "zeebe.config.service.config_service.ConfigServerApplication",
+            "projectName": "config_service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DRPApplication<drp_client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "zeebe.client.drp.service.drp_client.DRPApplication",
+            "projectName": "drp_client",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TransportationApplication<transportation_client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "zeebe.client.transportation.service.transportation_client.TransportationApplication",
+            "projectName": "transportation_client",
+            "args": ""
+        }
+    ]
+}

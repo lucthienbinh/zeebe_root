@@ -1,0 +1,8 @@
+zeebe:
+    client:
+      worker:
+        defaultName: drp_client
+
+spring.application.name: drp_client
+spring.cloud.config.uri: http://localhost:8888
+

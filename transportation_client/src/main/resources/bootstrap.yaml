@@ -1,0 +1,8 @@
+zeebe:
+    client:
+      worker:
+        defaultName: transportation_client
+
+spring.application.name: transportation_client
+spring.cloud.config.uri: http://localhost:8888
+
